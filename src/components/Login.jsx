@@ -35,7 +35,7 @@ const Login = () => {
 
   return (
     <div className="container"> {/* Aplicando estilos personalizados */}
-      <h1>Lista de pessoas chatas
+      <h1>MY-APP-TEST
         
       </h1>
       <button onClick={handleLogin}>
