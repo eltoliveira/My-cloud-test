@@ -1,0 +1,68 @@
+/* Reset de estilos para garantir uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  .fundoresult {
+    background-color: #fff; /* Cor de fundo branca */
+    padding: 20px;
+    border-radius: 10px; /* Cantos arredondados, se desejar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave, se desejar */
+  }
+  
+  
+  /* Plano de fundo com gradiente de cores do Google */
+  body {
+    background: linear-gradient(to bottom, #4285F4, #0F9D58, #F4B400, #DB4437);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container para centralizar o conteúdo */
+  .container {
+    background-color: #fff; /* Cor de fundo branca */
+    border-radius: 10px; /* Cantos arredondados */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    max-width: 400px; /* Largura máxima do conteúdo */
+    text-align: center;
+  }
+  
+  /* Estilo para cabeçalho */
+  h1 {
+    color: #4285F4; /* Cor azul do Google */
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para botões do Bootstrap */
+  .btn {
+    background-color: #4285F4; /* Cor azul do Google */
+    color: #fff; /* Texto branco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0F9D58; /* Cor verde do Google (ao passar o mouse) */
+  }
+  
+  /* Estilo para texto secundário */
+  p {
+    font-size: 16px;
+    color: #333; /* Cor de texto padrão */
+    margin-top: 10px;
+  }
+  
+  /* Outros estilos personalizados podem ser adicionados conforme necessário */
+  
