@@ -8,7 +8,6 @@ const App = () => {
     <div>
       <h1></h1>
       <Login
-          subtitle="Encontre informações secretas!" 
       />
     </div>
   );
